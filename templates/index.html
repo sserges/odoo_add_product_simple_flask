@@ -1,0 +1,9 @@
+{% include "includes/messages.html" %}
+Odoo ---  Flask
+<a href="/add">add product</a>
+<hr/>
+installed Modules in  your Database
+<hr/>
+{% for d in data  %}
+{{d.name}}<br/>
+{% endfor %}
